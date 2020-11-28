@@ -1,0 +1,48 @@
+  /* CONTACTS-NAV */
+  .contacts-nav {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .contacts-nav .item + .item {
+    margin-left: 50px;
+  }
+  
+  .contacts-nav a {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: $timing-function;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  
+//   .contacts-nav a:hover,
+//   .contacts-nav a:focus {
+//     color: $accent-color;
+//   }
+  
+  .icon-link {
+    display: flex;
+    align-items: center;
+  }
+  .icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  .icon-phone {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
